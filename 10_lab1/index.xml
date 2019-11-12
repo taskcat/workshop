@@ -4,4 +4,8 @@ project: name: cfn-project</description></item><item><title>Add a test section</
 specfiy the name of your template: lab1.template.yaml
 define the region: you want to test (for now just specifiy one) us-east-1
 add the parameters: this template does not require any parameters so just {} (to specify no params)
-tests: mytest: template: templates/lab1.template.yaml regions: - us-east-1 parameters: {}</description></item></channel></rss>
+tests: mytest: template: templates/lab1.template.yaml regions: - us-east-1 parameters: {}</description></item><item><title>Add inputs to your test</title><link>/10_lab1/50_page5.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/10_lab1/50_page5.html</guid><description>Add a parameter section to the test define a test mytest
+specfiy the name of your template: lab1.template.yaml
+define the region: you want to test (for now just specifiy one) us-east-1
+add the parameters: set the value of S3BucketName to $[taskcat_autobucket] This will evaulate to the bucket that taskcat creates during execution
+Hint: Parameter vaules can be dynamically passed to a stack during creation when testing with taskcat.</description></item></channel></rss>
