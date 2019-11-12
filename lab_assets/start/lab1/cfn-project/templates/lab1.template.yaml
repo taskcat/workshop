@@ -79,6 +79,6 @@ Resources:
 Outputs:
   GeneratedRandomString:
     Value:
-      GetAtt:
+      Fn::GetAtt:
       - GetID
       - Data
