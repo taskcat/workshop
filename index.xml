@@ -3,15 +3,16 @@ Python3 (taskcat is Python program) taskcat (pip install taskcat) Docker (Used f
 Your AWS Code Commit repository name Your AWS Code Commit repository Url (https://) Source branch name, where you will be pushing your changes Release branch name, where your changes needs to be promoted, after successfull test Create stack To create a CICD pipeline, you will launch a CloudFormation template.</description></item><item><title>Make changes locally</title><link>/40_lab4/20_page.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/40_lab4/20_page.html</guid><description>Now, once you have a CICD pipeline setup for your project, let&amp;rsquo;s see it in-action.
 Make changes to your code Let&amp;rsquo;s make few changes to the code.
 [TODO:List-of-changes-to-make]
-Stage your changes git add . and commit it git commit -m &amp;quot;make some changes&amp;quot;.</description></item><item><title>Taskcat config hierarchy</title><link>/10_lab1/20_page1.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/10_lab1/20_page1.html</guid><description>taskcat config hierarchy Taskcat uses two config files Global config and Project config
-Global config This config file provides global settings that become defaults for all projects.
-The global config file is located in the users homedir ~/.taskcat.yml
+Stage your changes git add . and commit it git commit -m &amp;quot;make some changes&amp;quot;.</description></item><item><title>Taskcat config hierarchy</title><link>/10_lab1/20_page1.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/10_lab1/20_page1.html</guid><description>Taskcat config hierarchy Taskcat uses two config files Global config and Project config
 Project Config Ths config file provides project specific configuration.
-The project config file is located in the root of your project folder &amp;lt;PROJECT_ROOT&amp;gt;/.taskcat.yml</description></item><item><title>Add a (Project Level) config</title><link>/10_lab1/20_page2.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/10_lab1/20_page2.html</guid><description>taskcat config hierarchy Taskcat uses two config files Global config and Project config
+The project config file is located in the root of your project folder &amp;lt;PROJECT_ROOT&amp;gt;/.taskcat.yml
 Global config This config file provides global settings that become defaults for all projects.
-The global config file is located in the users homedir ~/.taskcat.yml
-Project Config Ths config file provides project specific configuration.
-The project config file is located in the root of your project folder &amp;lt;PROJECT_ROOT&amp;gt;/.taskcat.yml</description></item><item><title>- Define project section</title><link>/10_lab1/20_page3.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/10_lab1/20_page3.html</guid><description> Add a project section for the value of name: specify the name of the project folder
+The global config file is located in the users homedir ~/.taskcat.yml</description></item><item><title>Add a (Project Level) config</title><link>/10_lab1/20_page2.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/10_lab1/20_page2.html</guid><description> Project Config Ths config file provides project specific configuration.
+The project config file is located in the root of your project folder &amp;lt;PROJECT_ROOT&amp;gt;/.taskcat.yml
+From the vscode file browser navigate to the lab1/,
+Open that taskcat.yml
+Double click on the file to open them in the ide tabs
+@TODO Screen shoot need updated to show appstream</description></item><item><title>- Define project section</title><link>/10_lab1/20_page3.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/10_lab1/20_page3.html</guid><description> Add a project section for the value of name: specify the name of the project folder
 project: name: cfn-project</description></item><item><title>Defining tests</title><link>/10_lab1/20_page4.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/10_lab1/20_page4.html</guid><description> Adding test definitions Define a test called mytest and define the template location
 Specfiy path to your relative to you project root template: templates/lab1.template.yaml
 Optionally you you can set the project_root to a diffrent location if need be:

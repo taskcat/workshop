@@ -1,12 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lab 1 on taskcat workshop</title><link>/10_lab1.html</link><description>Recent content in Lab 1 on taskcat workshop</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="/10_lab1/index.xml" rel="self" type="application/rss+xml"/><item><title>Taskcat config hierarchy</title><link>/10_lab1/20_page1.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/10_lab1/20_page1.html</guid><description>taskcat config hierarchy Taskcat uses two config files Global config and Project config
-Global config This config file provides global settings that become defaults for all projects.
-The global config file is located in the users homedir ~/.taskcat.yml
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lab 1 on taskcat workshop</title><link>/10_lab1.html</link><description>Recent content in Lab 1 on taskcat workshop</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="/10_lab1/index.xml" rel="self" type="application/rss+xml"/><item><title>Taskcat config hierarchy</title><link>/10_lab1/20_page1.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/10_lab1/20_page1.html</guid><description>Taskcat config hierarchy Taskcat uses two config files Global config and Project config
 Project Config Ths config file provides project specific configuration.
-The project config file is located in the root of your project folder &amp;lt;PROJECT_ROOT&amp;gt;/.taskcat.yml</description></item><item><title>Add a (Project Level) config</title><link>/10_lab1/20_page2.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/10_lab1/20_page2.html</guid><description>taskcat config hierarchy Taskcat uses two config files Global config and Project config
+The project config file is located in the root of your project folder &amp;lt;PROJECT_ROOT&amp;gt;/.taskcat.yml
 Global config This config file provides global settings that become defaults for all projects.
-The global config file is located in the users homedir ~/.taskcat.yml
-Project Config Ths config file provides project specific configuration.
-The project config file is located in the root of your project folder &amp;lt;PROJECT_ROOT&amp;gt;/.taskcat.yml</description></item><item><title>- Define project section</title><link>/10_lab1/20_page3.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/10_lab1/20_page3.html</guid><description> Add a project section for the value of name: specify the name of the project folder
+The global config file is located in the users homedir ~/.taskcat.yml</description></item><item><title>Add a (Project Level) config</title><link>/10_lab1/20_page2.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/10_lab1/20_page2.html</guid><description> Project Config Ths config file provides project specific configuration.
+The project config file is located in the root of your project folder &amp;lt;PROJECT_ROOT&amp;gt;/.taskcat.yml
+From the vscode file browser navigate to the lab1/,
+Open that taskcat.yml
+Double click on the file to open them in the ide tabs
+@TODO Screen shoot need updated to show appstream</description></item><item><title>- Define project section</title><link>/10_lab1/20_page3.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/10_lab1/20_page3.html</guid><description> Add a project section for the value of name: specify the name of the project folder
 project: name: cfn-project</description></item><item><title>Defining tests</title><link>/10_lab1/20_page4.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/10_lab1/20_page4.html</guid><description> Adding test definitions Define a test called mytest and define the template location
 Specfiy path to your relative to you project root template: templates/lab1.template.yaml
 Optionally you you can set the project_root to a diffrent location if need be:
