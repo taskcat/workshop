@@ -4,7 +4,7 @@ From the vscode file browser navigate to the lab1/,
 Open that taskcat.yml
 Double click on the file to open them in the ide tabs
 @TODO Screen shoot need updated to show appstream</description></item><item><title>- Define project section</title><link>/10_lab1/10_page3.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/10_lab1/10_page3.html</guid><description> Add a project section for the value of name: specify the name of the project folder
-project: name: cfn-project</description></item><item><title>Defining tests</title><link>/10_lab1/10_page4.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/10_lab1/10_page4.html</guid><description> Adding test definitions Define a test called mytest and define the template location
+project: name: cfn-project</description></item><item><title>- Defining tests</title><link>/10_lab1/10_page4.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/10_lab1/10_page4.html</guid><description> Adding test definitions Define a test called mytest and define the template location
 Specfiy path to your relative to you project root template: templates/lab1.template.yaml
 Optionally you you can set the project_root to a diffrent location if need be:
 -p PROJECT_ROOT or --project-root PROJECT_ROOT
