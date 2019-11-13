@@ -2,7 +2,7 @@
 Global config This config file provides global settings that become defaults for all projects.
 The global config file is located in the users homedir ~/.taskcat.yml
 Project Config Ths config file provides project specific configuration.
-The project config file is located in the root of your project folder &amp;lt;PROJECT_ROOT&amp;gt;/.taskcat.yml</description></item><item><title>Add a project config</title><link>/10_lab1/20_page2.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/10_lab1/20_page2.html</guid><description>taskcat config hierarchy Taskcat uses two config files Global config and Project config
+The project config file is located in the root of your project folder &amp;lt;PROJECT_ROOT&amp;gt;/.taskcat.yml</description></item><item><title>Add a (Project Level) config</title><link>/10_lab1/20_page2.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/10_lab1/20_page2.html</guid><description>taskcat config hierarchy Taskcat uses two config files Global config and Project config
 Global config This config file provides global settings that become defaults for all projects.
 The global config file is located in the users homedir ~/.taskcat.yml
 Project Config Ths config file provides project specific configuration.
