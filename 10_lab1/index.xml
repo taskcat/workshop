@@ -11,4 +11,5 @@ add the parameters: set the value of S3BucketName to $[taskcat_autobucket] This 
 Hint: Parameter vaules can be dynamically passed to a stack during creation when testing with taskcat.</description></item><item><title>Execute a taskcat test</title><link>/10_lab1/60_page6.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/10_lab1/60_page6.html</guid><description> Start a test From you vsode terminal change directory to you project root for lab1 (lab_assets/start/lab1/cfn-project)
 Under cfn-project you will see the following files
 cfn-project ├── lambda_functions ├── templates └── .taskcat.yml From the cfn-project dir run you taskcat testa
-taskcat test run Expected output:</description></item></channel></rss>
+taskcat test run Expected output:</description></item><item><title>View test results</title><link>/10_lab1/70_page7.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/10_lab1/70_page7.html</guid><description>Test Results After the test completes you will see a new folder under cfn-project called taskcat_outputs
+cfn-project ├── lambda_functions ├── templates ├── .taskcat.yml └── taskcat_outputs/index.html &amp;lt; - (report) open taskcat_outputs/index.html in the your web browser To see the test logs click the View Logs link</description></item></channel></rss>
