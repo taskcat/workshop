@@ -8,7 +8,7 @@ First, you will create a project section in your project configuration file.
 
 ## Add a project section
 
-To add a project section, copy and paste the following in **.taskcat.yml** file.
+To add a project section, copy and paste the following in your **.taskcat.yml** file.
 
 ```yaml
 project:

@@ -13,7 +13,6 @@ From the vscode file browser, navigate to **lab1/cfn-project**,  and open **.tas
 
 The file will be empty, let's start by adding the sections needed for a basic configuration.
 
-@TODO Screen shoot need updated to show appstream
 ![fig1.1](/images/fig_lab1.1.png)
 
 

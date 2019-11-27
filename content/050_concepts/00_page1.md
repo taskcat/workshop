@@ -5,7 +5,7 @@ weight = 60
 +++
 
 
-Taskcat uses two config files: _**Global config**_  and _**Project config**_
+Taskcat uses two config files:  _**Project config**_ and _**Global config**_.
 
 ## Project Config
 This config file provides project-specific configurations.

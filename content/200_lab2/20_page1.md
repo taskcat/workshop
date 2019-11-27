@@ -6,32 +6,32 @@ weight = 210
 
 ## Add Psuedo-Parameters to your project-level taskcat config
 
-* Edit your `cfn_project/.taskcat.yml` parameters to include psuedo-parameters.
-[Please see the Taskcat Concepts section for more details on psuedo-parameters](../00_concepts.html)
+Edit your `cfn_project/.taskcat.yml` parameters to include psuedo-parameters.
+Please see the [Getting Started](/050_concepts/00_page2.html#psuedo-parameters) section for more details on psuedo-parameters.
 
-* Example project config file:
+Following code sample shows an example project config file:
 
 ```yaml
-    project:
-      name: cfn-project
-    tests:
-      mytest:
-        template: templates/lab2.template.yaml
-        regions:
-          - us-east-1
-        parameters:
-          S3BucketName: '$[taskcat_autobucket]'
-          S3KeyPrefix: 'cfn-project/'
-          LicenseToken: 'value-to-be-overriden-by-global-config'
-          AvailabilityZones: '$[taskcat_genaz_2]'
+project:
+  name: cfn-project
+tests:
+  mytest:
+    template: templates/lab2.template.yaml
+    regions:
+      - us-east-1
+    parameters:
+      S3BucketName: '$[taskcat_autobucket]'
+      S3KeyPrefix: 'cfn-project/'
+      LicenseToken: 'value-to-be-overriden-by-global-config'
+      AvailabilityZones: '$[taskcat_genaz_2]'
 ```
 
 ## Add Psuedo-parameters to your global taskcat config.
 
-* Edit your <FILE> parameters to include psuedo-parameters.
+Edit your <FILE> parameters to include psuedo-parameters.
 
-* Note: For the purposes of this lab, we've created a shortcut command to access to the 
-file, in the IDE terminal type:
+**Note:** For the purposes of this lab, we've created a shortcut command to provide access to the 
+global config file. Running the following command from your IDE terminal, to open it in the editor.
 
 ```bash
 open-taskcat-global-config

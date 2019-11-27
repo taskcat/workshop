@@ -8,11 +8,9 @@ Now, you will define in which AWS regions you want to test your cloudformation t
 
 ## Add regions to your test
 
-The **regions:** key is optional for the tests. By default **regions** inherit from the global 
-configuration (We will conver global configs later in this lab)
+The **regions:** key is optional for the tests. By default **regions** inherit from the global  configuration (We will conver global configs later in this lab).
 
-The regions key takes a _list_ of regions. When defined in a  test, taskcat will 
-limit test to those regions
+The regions key takes a _list_ of regions. When defined in a  test, taskcat will limit test to those regions.
 
 For now, specifiy only one region **us-east-1**.
 
