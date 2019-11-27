@@ -8,9 +8,9 @@ weight = 200
 Using the provided cloudformation template build a taskcat config that uses **psuedo-parameters**
 
 We will use override to inject a `LicenseToken` and dynamically inject `AvailiblityZone` 
-values during testing
+values during testing.
 
-- Use taskcat overrides pass inputs into the stack that you do not want in the 
+- **Overrides** are used to pass inputs into the stack that you do not want in the 
 project_root/gitrepo _(secrets like `LicenseKeys` or `APITokens`, etc. Or account specific 
 values like EC2 KeyPair names, or Rooute53 domain names)_
 
